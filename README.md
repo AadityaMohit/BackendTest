@@ -27,26 +27,20 @@ Installation
 Follow these steps to set up the backend locally:
 
 1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/task-management-backend.git
+ 
+git clone [https://github.com/your-username/task-management-backend.git](https://github.com/AadityaMohit/BackendTest)
 2. Navigate into the project directory
-bash
-Copy
-Edit
+ 
+ 
 cd task-management-backend
 3. Install dependencies
 bash
-Copy
-Edit
+ 
 npm install
 4. Set up environment variables
 Create a .env file in the root of the project and add the following variables:
 
-ini
-Copy
-Edit
+ 
 MONGODB_URI=your_mongo_database_url
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
@@ -55,9 +49,7 @@ Replace your_mongo_database_url with your MongoDB URI.
 Replace your_jwt_secret_key with a secret key for JWT authentication.
 
 5. Start the server
-bash
-Copy
-Edit
+ 
 npm start
 The server will run on http://localhost:5000.
 
@@ -90,9 +82,7 @@ POST /api/tasks: Create a new task.
 
 Request body:
 
-json
-Copy
-Edit
+ 
 {
   "title": "Task Title",
   "description": "Task Description",
